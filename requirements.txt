@@ -1,0 +1,8 @@
+numpy
+pandas
+pyarrow
+faker
+psycopg2-binary
+duckdb
+pytest
+minio
