@@ -1,0 +1,23 @@
+.venv/
+__pycache__/
+*.py[cod]
+.env
+.DS_Store
+
+# Generated data
+data/devices.csv
+data/raw/*
+!data/raw/.gitkeep
+data/processed/readings/*
+!data/processed/readings/.gitkeep
+data/processed/anomalies/*
+!data/processed/anomalies/.gitkeep
+data/processed/run_stats.jsonl
+
+# Docker local volumes, if any
+pgdata/
+miniodata/
+
+data/devices.csv
+data/raw/*
+!data/raw/.gitkeep
