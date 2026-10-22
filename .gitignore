@@ -21,3 +21,7 @@ miniodata/
 data/devices.csv
 data/raw/*
 !data/raw/.gitkeep
+
+# Phase 2 benchmark outputs
+data/bench_naive/
+data/bench_opt/
